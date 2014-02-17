@@ -53,7 +53,7 @@
        
     <gap:plugin name="com.phonegap.plugins.facebookconnect">
     	<param name="APP_ID" value="744452868906706" />
-    	<param name="APP_NAME" value="hu_elet_arckonyv" />
+    	<param name="APP_NAME" value="arckonyv" />
 	</gap:plugin>
     
     <access origin="*" />
