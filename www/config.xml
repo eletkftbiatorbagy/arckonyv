@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="hu.e-let.arckonyv" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="hu.e-let.arckonyv" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>ArcKonyv</name>
     <description>
         FaceBook próba
@@ -53,7 +53,7 @@
        
     <gap:plugin name="com.phonegap.plugins.facebookconnect">
     	<param name="APP_ID" value="744452868906706" />
-    	<param name="APP_NAME" value="arckonyv" />
+    	<param name="APP_NAME" value="ArcKonyv" />
 	</gap:plugin>
     
     <access origin="*" />
