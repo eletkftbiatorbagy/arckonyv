@@ -1,16 +1,38 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="hu.e-let.arckonyv" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>ArcKonyv</name>
+<widget id="hu.e-let.arckonyv" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Hello Cordova</name>
     <description>
-        FaceBook próba
+        A sample Apache Cordova application that responds to the deviceready event.
     </description>
+    <access origin="*" />
+    <content src="index.html" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value=".25" />
+    <preference name="HideKeyboardFormAccessoryBar" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="KeyboardShrinksView" value="false" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="TopActivityIndicator" value="gray" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
     <author email="e-let@e-let.hu" href="http://e-let.hu">
         e-LET Kft
     </author>
     <preference name="phonegap-version" value="3.3.0" />
-	<gap:platform name="ios" />
-	<gap:platform name="android" />
-    
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
@@ -50,11 +72,8 @@
     <gap:splash gap:platform="ios" height="960" src="res/screen/ios/screen-iphone-portrait-2x.png" width="640" />
     <gap:splash gap:platform="ios" height="1024" src="res/screen/ios/screen-ipad-portrait.png" width="768" />
     <gap:splash gap:platform="ios" height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024" />
-       
     <gap:plugin name="com.phonegap.plugins.facebookconnect">
-    	<param name="APP_ID" value="744452868906706" />
-    	<param name="APP_NAME" value="arckonyv" />
-	</gap:plugin>
-    
-    <access origin="*" />
+        <param name="APP_ID" value="744452868906706" />
+        <param name="APP_NAME" value="arckonyv" />
+    </gap:plugin>
 </widget>
